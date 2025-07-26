@@ -1,0 +1,40 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.logo img{
+    height: 100px;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 100%;
+    align-items: center;
+}
+
+.navlink{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+.active{
+    color: black;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+@media (max-width : 580px){
+    .navbar{
+        padding: 10px 20px;
+    }
+    .logo img{
+        height: 60px;
+    }
+}
